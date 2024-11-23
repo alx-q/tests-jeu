@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, button{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+button{
+    background-color: rgb(0, 133, 115);
+    color: white;
+    margin: 3px 3px;
+    height: 36px;
+    border: none;
+    padding: 0 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button > .icon{
+    font-size: 20px;
+}
